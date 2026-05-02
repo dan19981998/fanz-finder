@@ -11,6 +11,7 @@ export const metadata: Metadata = {
         "Browse all OnlyFans categories alphabetically. Find creators by type — free, blonde, brunette, latina, asian, goth, fitness, and 25+ more categories with real stats.",
 };
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const TAG_EMOJIS: Record<string, string> = {
@@ -42,7 +43,7 @@ export default async function CategoriesPage() {
     const result = await pool.query(
         "SELECT name, slug, creator_count FROM tags ORDER BY name ASC"
     );
-    const allTags: { name: string; slug: string; creator_count: number }[] = result.rows;
+    const allTags = result.rows as { name: string; slug: string; creator_count: number }[];
     const tags = allTags.filter((t) => INDEXABLE_TAGS.includes(t.slug));
 
     const totalCreators = tags.reduce((sum, t) => sum + t.creator_count, 0);
