@@ -6,7 +6,7 @@ import { LOCATIONS } from "@/lib/locations";
 import CategoriesFaq from "@/components/CategoriesFaq";
 
 export const metadata: Metadata = {
-    title: "All OnlyFans Categories – Browse by Niche | OF Directory",
+    title: "All OnlyFans Categories – Browse by Niche | Lush Finder",
     description:
         "Browse all OnlyFans categories alphabetically. Find creators by type — free, blonde, brunette, latina, asian, goth, fitness, and 25+ more categories with real stats.",
 };
@@ -75,7 +75,7 @@ export default async function CategoriesPage() {
                 <section className="seo-content" style={{ padding: "48px 20px 0" }}>
                     <h2>Browse OnlyFans by Category</h2>
                     <p>
-                        OF Directory organises over 13,000 OnlyFans creators into {tags.length} searchable categories.
+                        Lush Finder organises over 13,000 OnlyFans creators into {tags.length} searchable categories.
                         Whether you&apos;re looking for free accounts, specific appearance types, or niche content —
                         every category page shows real stats pulled directly from OnlyFans including photo counts,
                         video counts, likes, and subscription prices.
@@ -118,7 +118,7 @@ export default async function CategoriesPage() {
             <footer className="site-footer">
                 <div className="footer-inner">
                     <div className="footer-brand">
-                        <a href="/" className="footer-logo">OF Directory</a>
+                        <a href="/" className="footer-logo">Lush Finder</a>
                         <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
                     </div>
                     <div className="footer-links">
@@ -146,7 +146,7 @@ export default async function CategoriesPage() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} OF Directory. Not affiliated with OnlyFans.</p>
+                    <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
                 </div>
             </footer>
         </>

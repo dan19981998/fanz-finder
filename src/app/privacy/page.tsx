@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Privacy Policy | OF Directory",
-    description: "OF Directory privacy policy. Learn how we collect, use, and protect your data including cookies, analytics, and third-party services.",
+    title: "Privacy Policy | Lush Finder",
+    description: "Lush Finder privacy policy. Learn how we collect, use, and protect your data including cookies, analytics, and third-party services.",
     alternates: { canonical: "/privacy" },
 };
 
@@ -18,7 +18,7 @@ export default function PrivacyPage() {
             <section className="legal-content">
                 <div className="legal-card">
                     <h2>1. Information We Collect</h2>
-                    <p>We collect minimal information when you use OF Directory:</p>
+                    <p>We collect minimal information when you use Lush Finder:</p>
                     <ul>
                         <li><strong>Usage data</strong> — pages visited, search queries, and clicks (anonymised)</li>
                         <li><strong>Technical data</strong> — IP address (hashed), browser type, and device type</li>
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
             <footer className="site-footer">
                 <div className="footer-inner">
                     <div className="footer-brand">
-                        <a href="/" className="footer-logo">OF Directory</a>
+                        <a href="/" className="footer-logo">Lush Finder</a>
                         <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
                     </div>
                     <div className="footer-links">
@@ -106,7 +106,7 @@ export default function PrivacyPage() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} OF Directory. Not affiliated with OnlyFans.</p>
+                    <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
                 </div>
             </footer>
         </main>

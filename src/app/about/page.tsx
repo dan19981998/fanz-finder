@@ -1,23 +1,23 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About - OF Directory",
+    title: "About - Lush Finder",
     description:
-        "Learn about OF Directory, the free OnlyFans search engine helping fans discover creators by category, appearance, and price.",
+        "Learn about Lush Finder, the free OnlyFans search engine helping fans discover creators by category, appearance, and price.",
 };
 
 export default function AboutPage() {
     return (
         <main className="about-page">
             <section className="about-hero">
-                <h1>About OF Directory</h1>
+                <h1>About Lush Finder</h1>
                 <p className="about-hero-sub">The smarter way to discover OnlyFans creators.</p>
             </section>
 
             <section className="about-content">
                 <div className="about-card about-card-accent">
                     <h2>What We Do</h2>
-                    <p>OF Directory is a free OnlyFans search engine that helps fans discover creators by category, appearance, and content type. We make it easy to find exactly the type of creator you&apos;re looking for — without scrolling through social media for hours.</p>
+                    <p>Lush Finder is a free OnlyFans search engine that helps fans discover creators by category, appearance, and content type. We make it easy to find exactly the type of creator you&apos;re looking for — without scrolling through social media for hours.</p>
                     <p>Think of us as a search engine built specifically for OnlyFans. Browse by tag, filter by price, or explore categories. Every profile is real, with accurate stats pulled directly from the platform.</p>
                 </div>
 
@@ -64,12 +64,12 @@ export default function AboutPage() {
                 <div className="about-card">
                     <h2>Why We Built This</h2>
                     <p>OnlyFans doesn&apos;t have a built-in search or proper category browser. Fans rely on Reddit threads, Twitter promotions, and word of mouth — which is slow, random, and unreliable.</p>
-                    <p>We built OF Directory to fix that. Our goal is simple: connect fans with creators they&apos;ll love, using real data instead of hype.</p>
+                    <p>We built Lush Finder to fix that. Our goal is simple: connect fans with creators they&apos;ll love, using real data instead of hype.</p>
                 </div>
 
                 <div className="about-card">
                     <h2>Not Affiliated With OnlyFans</h2>
-                    <p>OF Directory is an independent third-party directory. We are not affiliated with, endorsed by, or connected to OnlyFans or Fenix International Limited in any way.</p>
+                    <p>Lush Finder is an independent third-party directory. We are not affiliated with, endorsed by, or connected to OnlyFans or Fenix International Limited in any way.</p>
                 </div>
 
                 <div className="about-card about-cta-card">

@@ -1,4 +1,4 @@
-export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "OF Directory";
+export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Lush Finder";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const INDEXABLE_TAGS = [

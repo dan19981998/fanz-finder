@@ -15,7 +15,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const sp = await searchParams;
   if (sp.q) {
     return {
-      title: `Search results for "${sp.q}" | OF Directory`,
+      title: `Search results for "${sp.q}" | Lush Finder`,
       robots: { index: false, follow: false },
     };
   }
@@ -150,7 +150,7 @@ export default async function HomePage({ searchParams }: Props) {
         <footer className="site-footer">
           <div className="footer-inner">
             <div className="footer-brand">
-              <a href="/" className="footer-logo">OF Directory</a>
+              <a href="/" className="footer-logo">Lush Finder</a>
               <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
             </div>
             <div className="footer-links">
@@ -177,7 +177,7 @@ export default async function HomePage({ searchParams }: Props) {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} OF Directory. Not affiliated with OnlyFans.</p>
+            <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
           </div>
         </footer>
       </>
@@ -264,7 +264,7 @@ export default async function HomePage({ searchParams }: Props) {
               <span className="hero-highlight">Search OnlyFans</span>
             </h2>
             <p className="feature-description">
-              OF Directory is the most comprehensive OnlyFans search engine on the web.
+              Lush Finder is the most comprehensive OnlyFans search engine on the web.
               Browse over 13,000 creators across 25 categories — with real stats pulled
               directly from OnlyFans including photo counts, video counts, and subscription prices.
             </p>
@@ -275,7 +275,7 @@ export default async function HomePage({ searchParams }: Props) {
             <a href="/categories" className="btn-accent">Browse Categories →</a>
           </div>
           <div className="feature-image">
-            <img src="/images/feature-discover.png" alt="Discover creators on OF Directory" />
+            <img src="/images/feature-discover.png" alt="Discover creators on Lush Finder" />
           </div>
         </div>
       </section>
@@ -300,7 +300,7 @@ export default async function HomePage({ searchParams }: Props) {
             <a href="/categories" className="btn-accent">Browse Categories →</a>
           </div>
           <div className="feature-image">
-            <img src="/images/feature-filters.png" alt="Browse categories on OF Directory" />
+            <img src="/images/feature-filters.png" alt="Browse categories on Lush Finder" />
           </div>
         </div>
       </section>
@@ -314,7 +314,7 @@ export default async function HomePage({ searchParams }: Props) {
               <span className="hero-highlight">Real Prices.</span>
             </h2>
             <p className="feature-description">
-              Every profile on OF Directory includes real data pulled from OnlyFans —
+              Every profile on Lush Finder includes real data pulled from OnlyFans —
               photo count, video count, total likes, and exact subscription price.
               No guessing, no surprises.
             </p>
@@ -325,7 +325,7 @@ export default async function HomePage({ searchParams }: Props) {
             <a href="/onlyfans/free" className="btn-accent">Browse Free Creators →</a>
           </div>
           <div className="feature-image">
-            <img src="/images/feature-creators.png" alt="Real stats on OF Directory" />
+            <img src="/images/feature-creators.png" alt="Real stats on Lush Finder" />
           </div>
         </div>
       </section>
@@ -335,22 +335,22 @@ export default async function HomePage({ searchParams }: Props) {
         <div className="tag-deep-inner">
           <h2>Why Use an OnlyFans Search Engine?</h2>
           <p>
-            OnlyFans has over 3 million creators, but the platform itself has no built-in search functionality worth using. You can&apos;t browse by category, filter by appearance, or compare subscription prices. That&apos;s why dedicated OnlyFans search engines like OF Directory exist — to solve the discovery problem that OnlyFans refuses to fix.
+            OnlyFans has over 3 million creators, but the platform itself has no built-in search functionality worth using. You can&apos;t browse by category, filter by appearance, or compare subscription prices. That&apos;s why dedicated OnlyFans search engines like Lush Finder exist — to solve the discovery problem that OnlyFans refuses to fix.
           </p>
           <p>
             Without an OnlyFans search tool, fans are stuck relying on Reddit threads, Twitter promotions, and word of mouth to find new creators. Those methods are disorganised, outdated, and full of self-promotion. An OnlyFans search engine puts every creator in one searchable, filterable directory — so you can find exactly who you&apos;re looking for in seconds.
           </p>
           <p>
-            OF Directory pulls real stats directly from OnlyFans — photo counts, video counts, likes, and subscription prices. With 25 category pages and over 13,000 creators, it&apos;s the most comprehensive way to search OnlyFans. Every profile shows real data, so there are no surprises after you subscribe.
+            Lush Finder pulls real stats directly from OnlyFans — photo counts, video counts, likes, and subscription prices. With 25 category pages and over 13,000 creators, it&apos;s the most comprehensive way to search OnlyFans. Every profile shows real data, so there are no surprises after you subscribe.
           </p>
         </div>
       </section>
 
       <section className="tag-deep-content">
         <div className="tag-deep-inner">
-          <h2>How OnlyFans Search Works on OF Directory</h2>
+          <h2>How OnlyFans Search Works on Lush Finder</h2>
           <p>
-            Searching for OnlyFans creators on OF Directory is simple. Start by typing a name, category, or keyword into the search bar. Results appear instantly. You&apos;ll see matching creators with their real stats and subscription prices.
+            Searching for OnlyFans creators on Lush Finder is simple. Start by typing a name, category, or keyword into the search bar. Results appear instantly. You&apos;ll see matching creators with their real stats and subscription prices.
           </p>
           <p>
             You can also browse by category using the tag pills on the homepage or the full categories page. Each category — from <a href="/onlyfans/blonde">Blonde OnlyFans</a> to <a href="/onlyfans/latina">Latina OnlyFans</a> to <a href="/onlyfans/free">Free OnlyFans</a> — features a grid of verified creators with real data. Click any profile to see their full details, then visit their OnlyFans page directly.
@@ -373,7 +373,7 @@ export default async function HomePage({ searchParams }: Props) {
       <footer className="site-footer">
         <div className="footer-inner">
           <div className="footer-brand">
-            <a href="/" className="footer-logo">OF Directory</a>
+            <a href="/" className="footer-logo">Lush Finder</a>
             <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
           </div>
           <div className="footer-links">
@@ -401,7 +401,7 @@ export default async function HomePage({ searchParams }: Props) {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} OF Directory. Not affiliated with OnlyFans.</p>
+          <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
         </div>
       </footer>
     </>
