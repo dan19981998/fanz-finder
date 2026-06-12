@@ -76,6 +76,34 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Quiz Tool ── */}
+      <section className="hp-tool-section" id="quiz">
+        <div className="hp-section-inner">
+          <div className="hp-tool-header">
+            <span className="hp-tool-badge">🎯 Interactive Tool</span>
+            <h2 className="hp-section-title">Find Your Perfect Creator</h2>
+            <p className="hp-section-sub">Answer 5 quick questions and get personalised recommendations instantly.</p>
+          </div>
+          <div className="hp-tool-card">
+            <QuizClient />
+          </div>
+        </div>
+      </section>
+
+      {/* ── Compare Tool ── */}
+      <section className="hp-tool-section hp-tool-section-alt" id="compare">
+        <div className="hp-section-inner">
+          <div className="hp-tool-header">
+            <span className="hp-tool-badge">⚖️ Compare Tool</span>
+            <h2 className="hp-section-title">Compare Two Creators</h2>
+            <p className="hp-section-sub">See who offers more content, better pricing, and higher engagement — side by side.</p>
+          </div>
+          <div className="hp-tool-card">
+            <CompareClient />
+          </div>
+        </div>
+      </section>
+
       {/* ── Featured Creators ── */}
       {featuredCreators.length > 0 && (
         <section className="hp-featured">
@@ -119,20 +147,6 @@ export default async function HomePage() {
           </div>
         </section>
       )}
-
-      {/* ── Quiz Tool ── */}
-      <section className="hp-tool-section" id="quiz">
-        <div className="hp-section-inner">
-          <div className="hp-tool-header">
-            <span className="hp-tool-badge">🎯 Interactive Tool</span>
-            <h2 className="hp-section-title">Find Your Perfect Creator</h2>
-            <p className="hp-section-sub">Answer 5 quick questions and get personalised recommendations instantly.</p>
-          </div>
-          <div className="hp-tool-card">
-            <QuizClient />
-          </div>
-        </div>
-      </section>
 
       {/* ── Categories Grid ── */}
       <section className="hp-categories">
@@ -192,20 +206,6 @@ export default async function HomePage() {
           </div>
         </section>
       )}
-
-      {/* ── Compare Tool ── */}
-      <section className="hp-tool-section hp-tool-section-alt" id="compare">
-        <div className="hp-section-inner">
-          <div className="hp-tool-header">
-            <span className="hp-tool-badge">⚖️ Compare Tool</span>
-            <h2 className="hp-section-title">Compare Two Creators</h2>
-            <p className="hp-section-sub">See who offers more content, better pricing, and higher engagement — side by side.</p>
-          </div>
-          <div className="hp-tool-card">
-            <CompareClient />
-          </div>
-        </div>
-      </section>
 
       {/* ── Browse by Location ── */}
       <section className="hp-locations">
