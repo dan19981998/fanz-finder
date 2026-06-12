@@ -4,8 +4,8 @@ import { useState, useRef, useEffect } from "react";
 
 const FAQS = [
     {
-        q: "What is Lush Finder?",
-        a: "Lush Finder is a free OnlyFans search engine. We help fans discover creators by category, appearance, price, and content type — with real stats from the platform.",
+        q: "What is FindFanz?",
+        a: "FindFanz is a free OnlyFans search engine. We help fans discover creators by category, appearance, price, and content type — with real stats from the platform.",
     },
     {
         q: "Is it free to use?",
@@ -20,12 +20,12 @@ const FAQS = [
         a: "Yes. Use the search bar to find creators by name, username, or keyword. You can also browse by category using our 25 tag pages.",
     },
     {
-        q: "Is Lush Finder affiliated with OnlyFans?",
+        q: "Is FindFanz affiliated with OnlyFans?",
         a: "No. We are an independent third-party directory. We are not affiliated with, endorsed by, or connected to OnlyFans or Fenix International Limited.",
     },
     {
         q: "How many creators are listed?",
-        a: "Over 13,000 verified creators across 25 categories — from free accounts to niche content types. We add new creators every week.",
+        a: "Over 50,000 verified creators across 25 categories — from free accounts to niche content types. We add new creators every week.",
     },
     {
         q: "Can I filter by price?",

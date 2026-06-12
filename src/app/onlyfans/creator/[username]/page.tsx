@@ -185,13 +185,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const name = c.display_name || c.username;
     const price = c.is_free ? "Free" : `$${c.subscription_price}/mo`;
     const loc = c.location || c.country || "";
-    const hasTraits = c.traits && Object.keys(c.traits).length > 1;
 
     return {
         title: `${name} OnlyFans — ${price}${loc ? ` | ${loc}` : ""} | ${SITE_NAME}`,
         description: `${name} (@${c.username}) OnlyFans profile — ${price}. View stats, content count, photos, videos, and similar creators.${loc ? ` Based in ${loc}.` : ""}`,
         alternates: { canonical: `/onlyfans/creator/${c.username}` },
-        ...(hasTraits ? {} : { robots: { index: false, follow: true } }),
+        robots: { index: false, follow: true },
     };
 }
 
@@ -369,12 +368,6 @@ export default async function CreatorProfilePage({ params }: Props) {
                 <div className="profile-bio-inner">
                     <h2>About @{creator.username}</h2>
                     <p>{aboutText}</p>
-                    {creator.bio && (
-                        <>
-                            <h3>Creator Bio</h3>
-                            <p className="profile-bio-raw">{creator.bio}</p>
-                        </>
-                    )}
                 </div>
             </section>
 

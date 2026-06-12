@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Terms of Service | Lush Finder",
-    description: "Read the Lush Finder terms of service. Learn about acceptable use, content policies, and your rights when using our OnlyFans creator directory.",
+    title: "Terms of Service | FindFanz",
+    description: "Read the FindFanz terms of service. Learn about acceptable use, content policies, and your rights when using our OnlyFans creator directory.",
     alternates: { canonical: "/terms" },
 };
 
@@ -12,28 +12,28 @@ export default function TermsPage() {
             <section className="legal-hero">
                 <span className="legal-updated">Last updated: May 2026</span>
                 <h1>Terms of Service</h1>
-                <p className="legal-hero-sub">Please read these terms carefully before using Lush Finder.</p>
+                <p className="legal-hero-sub">Please read these terms carefully before using FindFanz.</p>
             </section>
 
             <section className="legal-content">
                 <div className="legal-card">
                     <h2>1. Acceptance of Terms</h2>
-                    <p>By accessing or using Lush Finder (&ldquo;the Service&rdquo;), you agree to be bound by these Terms of Service. If you do not agree, do not use the Service.</p>
+                    <p>By accessing or using FindFanz (&ldquo;the Service&rdquo;), you agree to be bound by these Terms of Service. If you do not agree, do not use the Service.</p>
                 </div>
 
                 <div className="legal-card">
                     <h2>2. Description of Service</h2>
-                    <p>Lush Finder is an independent third-party directory that allows users to discover OnlyFans creators. We are not affiliated with, endorsed by, or connected to OnlyFans in any way. We do not host, distribute, or control any content on OnlyFans.</p>
+                    <p>FindFanz is an independent third-party directory that allows users to discover OnlyFans creators. We are not affiliated with, endorsed by, or connected to OnlyFans in any way. We do not host, distribute, or control any content on OnlyFans.</p>
                 </div>
 
                 <div className="legal-card">
                     <h2>3. Age Requirement</h2>
-                    <p>You must be at least 18 years old to use this Service. By using Lush Finder, you confirm that you are at least 18 years of age.</p>
+                    <p>You must be at least 18 years old to use this Service. By using FindFanz, you confirm that you are at least 18 years of age.</p>
                 </div>
 
                 <div className="legal-card">
                     <h2>4. Content and Listings</h2>
-                    <p>All creator listings on Lush Finder are sourced from publicly available information on OnlyFans. We display usernames, profile images, subscription prices, and basic statistics. We do not host or redistribute any OnlyFans content.</p>
+                    <p>All creator listings on FindFanz are sourced from publicly available information on OnlyFans. We display usernames, profile images, subscription prices, and basic statistics. We do not host or redistribute any OnlyFans content.</p>
                 </div>
 
                 <div className="legal-card">
@@ -49,7 +49,7 @@ export default function TermsPage() {
 
                 <div className="legal-card">
                     <h2>6. Intellectual Property</h2>
-                    <p>All content on Lush Finder, including text, design, and code, is the property of Lush Finder. Creator profile images and names remain the property of their respective owners.</p>
+                    <p>All content on FindFanz, including text, design, and code, is the property of FindFanz. Creator profile images and names remain the property of their respective owners.</p>
                 </div>
 
                 <div className="legal-card">
@@ -71,7 +71,7 @@ export default function TermsPage() {
             <footer className="site-footer">
                 <div className="footer-inner">
                     <div className="footer-brand">
-                        <a href="/" className="footer-logo">Lush Finder</a>
+                        <a href="/" className="footer-logo">FindFanz</a>
                         <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
                     </div>
                     <div className="footer-links">
@@ -90,7 +90,7 @@ export default function TermsPage() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
+                    <p>&copy; {new Date().getFullYear()} FindFanz. Not affiliated with OnlyFans.</p>
                 </div>
             </footer>
         </main>

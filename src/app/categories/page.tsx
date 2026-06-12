@@ -6,9 +6,10 @@ import { LOCATIONS } from "@/lib/locations";
 import CategoriesFaq from "@/components/CategoriesFaq";
 
 export const metadata: Metadata = {
-    title: "All OnlyFans Categories – Browse by Niche | Lush Finder",
+    title: "All OnlyFans Categories – Browse by Niche | FindFanz",
     description:
         "Browse all OnlyFans categories alphabetically. Find creators by type — free, blonde, brunette, latina, asian, goth, fitness, and 25+ more categories with real stats.",
+    robots: { index: false, follow: true },
 };
 
 export const dynamic = "force-dynamic";
@@ -75,7 +76,7 @@ export default async function CategoriesPage() {
                 <section className="seo-content" style={{ padding: "48px 20px 0" }}>
                     <h2>Browse OnlyFans by Category</h2>
                     <p>
-                        Lush Finder organises over 13,000 OnlyFans creators into {tags.length} searchable categories.
+                        FindFanz organises over 50,000 OnlyFans creators into {tags.length} searchable categories.
                         Whether you&apos;re looking for free accounts, specific appearance types, or niche content —
                         every category page shows real stats pulled directly from OnlyFans including photo counts,
                         video counts, likes, and subscription prices.
@@ -118,7 +119,7 @@ export default async function CategoriesPage() {
             <footer className="site-footer">
                 <div className="footer-inner">
                     <div className="footer-brand">
-                        <a href="/" className="footer-logo">Lush Finder</a>
+                        <a href="/" className="footer-logo">FindFanz</a>
                         <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
                     </div>
                     <div className="footer-links">
@@ -146,7 +147,7 @@ export default async function CategoriesPage() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
+                    <p>&copy; {new Date().getFullYear()} FindFanz. Not affiliated with OnlyFans.</p>
                 </div>
             </footer>
         </>

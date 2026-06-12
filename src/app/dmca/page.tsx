@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "DMCA Policy | Lush Finder",
-    description: "Lush Finder DMCA policy. Learn how to file a copyright infringement notice or request content removal from our OnlyFans creator directory.",
+    title: "DMCA Policy | FindFanz",
+    description: "FindFanz DMCA policy. Learn how to file a copyright infringement notice or request content removal from our OnlyFans creator directory.",
     alternates: { canonical: "/dmca" },
 };
 
@@ -18,12 +18,12 @@ export default function DmcaPage() {
             <section className="legal-content">
                 <div className="legal-card">
                     <h2>Overview</h2>
-                    <p>Lush Finder respects the intellectual property rights of others and responds to notices of alleged copyright infringement in accordance with the Digital Millennium Copyright Act (DMCA).</p>
+                    <p>FindFanz respects the intellectual property rights of others and responds to notices of alleged copyright infringement in accordance with the Digital Millennium Copyright Act (DMCA).</p>
                 </div>
 
                 <div className="legal-card">
                     <h2>What We Host</h2>
-                    <p>Lush Finder is a directory service. We do not host, store, or distribute OnlyFans content. Creator profiles in our directory contain only: usernames, profile images (sourced from OnlyFans), subscription prices, and basic statistics. All data is publicly available on OnlyFans.</p>
+                    <p>FindFanz is a directory service. We do not host, store, or distribute OnlyFans content. Creator profiles in our directory contain only: usernames, profile images (sourced from OnlyFans), subscription prices, and basic statistics. All data is publicly available on OnlyFans.</p>
                 </div>
 
                 <div className="legal-card">
@@ -64,7 +64,7 @@ export default function DmcaPage() {
             <footer className="site-footer">
                 <div className="footer-inner">
                     <div className="footer-brand">
-                        <a href="/" className="footer-logo">Lush Finder</a>
+                        <a href="/" className="footer-logo">FindFanz</a>
                         <p className="footer-tagline">The best OnlyFans search engine for discovering creators.</p>
                     </div>
                     <div className="footer-links">
@@ -83,7 +83,7 @@ export default function DmcaPage() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Lush Finder. Not affiliated with OnlyFans.</p>
+                    <p>&copy; {new Date().getFullYear()} FindFanz. Not affiliated with OnlyFans.</p>
                 </div>
             </footer>
         </main>
