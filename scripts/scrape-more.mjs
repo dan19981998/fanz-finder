@@ -11,7 +11,8 @@ import pg from 'pg';
 const { Pool } = pg;
 
 const pool = new Pool({
-    connectionString: 'postgresql://dan@localhost:5432/of_directory',
+    connectionString: process.env.DATABASE_URL || 'postgresql://dan@localhost:5432/of_directory',
+    ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : false,
     max: 5,
 });
 

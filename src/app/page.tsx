@@ -96,7 +96,7 @@ export default async function HomePage({ searchParams }: Props) {
                 return (
                   <CreatorCardLink
                     key={creator.id as number}
-                    href={`https://onlyfans.com/${username}`}
+                    href={`/onlyfans/creator/${username}`}
                     creatorId={creator.id as number}
                     source="search"
                     className="tag-card"

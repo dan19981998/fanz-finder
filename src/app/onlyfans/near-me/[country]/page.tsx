@@ -17,8 +17,10 @@ export async function generateStaticParams() {
     return LOCATIONS.map((loc) => ({ country: loc.slug }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
     const { country } = await params;
+    const sp = await searchParams;
+    const page = parseInt(sp.page || "1", 10);
     const loc = LOCATIONS.find((l) => l.slug === country);
     if (!loc) return {};
     const content = LOCATION_CONTENT[country] || getDefaultLocationContent(loc.name);
@@ -26,6 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: content.metaTitle,
         description: content.metaDescription,
+        alternates: { canonical: `/onlyfans/near-me/${country}` },
+        ...(page > 1 ? { robots: { index: false, follow: true } } : {}),
     };
 }
 
@@ -269,7 +273,7 @@ export default async function LocationPage({ params, searchParams }: Props) {
                             return (
                                 <CreatorCardLink
                                     key={creator.id as number}
-                                    href={`https://onlyfans.com/${username}`}
+                                    href={`/onlyfans/creator/${username}`}
                                     creatorId={creator.id as number}
                                     source={`location-${country}`}
                                     className="tag-card"

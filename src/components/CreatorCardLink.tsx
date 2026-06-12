@@ -6,12 +6,14 @@ export default function CreatorCardLink({
     source,
     className,
     children,
+    external = false,
 }: {
     href: string;
     creatorId: number;
     source: string;
     className?: string;
     children: React.ReactNode;
+    external?: boolean;
 }) {
     const handleClick = () => {
         // Fire-and-forget beacon
@@ -24,8 +26,7 @@ export default function CreatorCardLink({
     return (
         <a
             href={href}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
             className={className}
             onClick={handleClick}
         >

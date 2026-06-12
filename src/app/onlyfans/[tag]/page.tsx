@@ -18,13 +18,17 @@ export async function generateStaticParams() {
   return INDEXABLE_TAGS.map((tag) => ({ tag }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
   const { tag } = await params;
+  const sp = await searchParams;
+  const page = parseInt(sp.page || "1", 10);
   const content = TAG_CONTENT[tag] || getDefaultContent(tag);
 
   return {
     title: content.metaTitle,
     description: content.metaDescription,
+    alternates: { canonical: `/onlyfans/${tag}` },
+    ...(page > 1 ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
@@ -612,7 +616,7 @@ export default async function TagPage({ params, searchParams }: Props) {
               return (
                 <CreatorCardLink
                   key={creator.id as number}
-                  href={`https://onlyfans.com/${username}`}
+                  href={`/onlyfans/creator/${username}`}
                   creatorId={creator.id as number}
                   source={tag}
                   className="tag-card"

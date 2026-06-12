@@ -1,3 +1,5 @@
+import { proxyAvatarUrl } from "@/lib/avatars";
+
 interface Creator {
   id: number;
   username: string;
@@ -16,15 +18,13 @@ export default function CreatorCard({ creator }: { creator: Record<string, unkno
 
   return (
     <a
-      href={`https://onlyfans.com/${c.username}`}
-      target="_blank"
-      rel="noopener noreferrer"
+      href={`/onlyfans/creator/${c.username}`}
       className="creator-card"
     >
       <div className="creator-card-img">
         {c.avatar_url ? (
           <img
-            src={c.avatar_url}
+            src={proxyAvatarUrl(c.avatar_url)}
             alt={c.display_name || c.username}
           />
         ) : (
