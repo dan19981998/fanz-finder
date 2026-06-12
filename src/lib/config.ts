@@ -1,5 +1,5 @@
 export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "FindFanz";
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://findfanz.com";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.findfanz.com";
 
 export const INDEXABLE_TAGS = [
     "free",
