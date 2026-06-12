@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Free OnlyFans search engine. Search 50,000+ creators by description, category, price, or location. Compare creators side by side. Take our quiz to find your perfect match. No login required.",
   keywords: "OnlyFans search, OnlyFans finder, find OnlyFans creators, OnlyFans search engine, free OnlyFans search, OnlyFans models, search OnlyFans without account, OnlyFans discovery, creator finder, OnlyFans compare, OnlyFans quiz",
+  verification: { google: "QBKPRnvZEk1f1gpG0CYbyVdSDgf74SJKRDBtd6bfVww" },
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
