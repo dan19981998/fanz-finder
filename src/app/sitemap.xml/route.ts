@@ -6,6 +6,7 @@ export async function GET() {
   // Tool-first approach: only index the application pages
   const pages = [
     { url: "", changefreq: "daily", priority: "1.0" },
+    { url: "/tools", changefreq: "weekly", priority: "0.9" },
     { url: "/quiz", changefreq: "weekly", priority: "0.9" },
     { url: "/compare", changefreq: "weekly", priority: "0.9" },
     { url: "/about", changefreq: "monthly", priority: "0.4" },

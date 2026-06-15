@@ -128,8 +128,17 @@ export default function RootLayout({
             <nav className="nav-links">
               <a href="/categories" className="nav-link">Categories</a>
               <a href="/onlyfans/free" className="nav-link">Free</a>
-              <a href="/quiz" className="nav-link">Quiz</a>
-              <a href="/compare" className="nav-link">Compare</a>
+              <div className="nav-dropdown">
+                <a href="/tools" className="nav-link nav-link-dropdown">Tools <span className="nav-arrow">▾</span></a>
+                <div className="nav-dropdown-menu">
+                  <a href="/tools#quiz" className="nav-dropdown-item"><span>🎯</span> Creator Quiz</a>
+                  <a href="/tools#compare" className="nav-dropdown-item"><span>⚖️</span> Compare Tool</a>
+                  <a href="/tools#budget" className="nav-dropdown-item"><span>💰</span> Budget Calculator</a>
+                  <a href="/tools#value" className="nav-dropdown-item"><span>📊</span> Value Rankings</a>
+                  <a href="/tools#watchlist" className="nav-dropdown-item"><span>⭐</span> My Watchlist</a>
+                  <a href="/tools#random" className="nav-dropdown-item"><span>🎰</span> Random Discovery</a>
+                </div>
+              </div>
               <a href="/onlyfans/near-me" className="nav-link">Near Me</a>
             </nav>
           </div>
