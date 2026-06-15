@@ -4,6 +4,7 @@ import Link from "next/link";
 import { proxyAvatarUrl } from "@/lib/avatars";
 import QuizClient from "@/components/QuizClient";
 import CompareClient from "@/components/CompareClient";
+import ToolsHub from "@/components/ToolsHub";
 import { LOCATIONS } from "@/lib/locations";
 import HomeFaq from "@/components/HomeFaq";
 
@@ -101,6 +102,18 @@ export default async function HomePage() {
           <div className="hp-tool-card">
             <CompareClient />
           </div>
+        </div>
+      </section>
+
+      {/* ── More Tools ── */}
+      <section className="hp-tool-section" id="tools">
+        <div className="hp-section-inner">
+          <div className="hp-tool-header">
+            <span className="hp-tool-badge">🛠️ More Tools</span>
+            <h2 className="hp-section-title">OnlyFans Discovery Tools</h2>
+            <p className="hp-section-sub">Budget planning, value rankings, watchlists, and random discovery — all free.</p>
+          </div>
+          <ToolsHub />
         </div>
       </section>
 
