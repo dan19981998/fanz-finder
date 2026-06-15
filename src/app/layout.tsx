@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/global.scss";
 import { SITE_URL, SITE_NAME } from "@/lib/config";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: "FindFanz – Free OnlyFans Search Engine | 50,000+ Creators",
@@ -141,6 +142,7 @@ export default function RootLayout({
               </div>
               <a href="/onlyfans/near-me" className="nav-link">Near Me</a>
             </nav>
+            <MobileNav />
           </div>
         </header>
 
