@@ -287,9 +287,41 @@ export default async function HomePage() {
 
           <h3>Tools That Actually Help You Decide</h3>
           <p>
-            Our <Link href="#quiz">Creator Quiz</Link> matches you with categories based on your actual preferences — not random suggestions.
-            The <Link href="#compare">Compare Tool</Link> lets you put two creators side by side and see who delivers more content, better engagement, and fairer pricing.
+            Our <Link href="/tools#quiz">Creator Quiz</Link> matches you with categories based on your actual preferences — not random suggestions.
+            The <Link href="/tools#compare">Compare Tool</Link> lets you put two creators side by side and see who delivers more content, better engagement, and fairer pricing.
+            The <Link href="/tools#budget">Budget Calculator</Link> optimises your monthly spending across multiple subscriptions.
             These aren&apos;t gimmicks — they&apos;re the tools OnlyFans should have built but never will.
+          </p>
+
+          <h3>Search OnlyFans by Category</h3>
+          <p>
+            Browse creators by niche — from <Link href="/onlyfans/blonde">blonde</Link> and <Link href="/onlyfans/brunette">brunette</Link> to <Link href="/onlyfans/fitness">fitness</Link>, <Link href="/onlyfans/cosplay">cosplay</Link>, and <Link href="/onlyfans/goth">goth</Link>.
+            Each category page shows creators ranked by engagement with real like counts and media totals. Filter further by price or free-only accounts.
+            We index over 18 popular categories with thousands of verified creators in each.
+          </p>
+
+          <h3>Find OnlyFans Creators Near You</h3>
+          <p>
+            Our <Link href="/onlyfans/near-me">location-based search</Link> lets you find OnlyFans creators by country. Browse accounts from the <Link href="/onlyfans/near-me/united-states">United States</Link>, <Link href="/onlyfans/near-me/united-kingdom">United Kingdom</Link>, <Link href="/onlyfans/near-me/canada">Canada</Link>, <Link href="/onlyfans/near-me/australia">Australia</Link>, and dozens of other countries.
+            Location data comes from creator profiles and is updated weekly. Find local creators or discover accounts from anywhere in the world.
+          </p>
+
+          <h3>Free OnlyFans Accounts</h3>
+          <p>
+            Not ready to pay? Browse our curated list of <Link href="/onlyfans/free">free OnlyFans accounts</Link> — creators who charge $0/month to subscribe.
+            Free accounts still post regular content and many offer premium pay-per-view messages for exclusive material. It&apos;s a zero-risk way to explore the platform and find creators worth following long-term.
+          </p>
+
+          <h3>How to Search OnlyFans Without an Account</h3>
+          <p>
+            You don&apos;t need an OnlyFans account to use FindFanz. Our entire database is searchable without signing up or logging in. Type a name, category, or keyword into the search bar and browse results instantly.
+            Creator profiles show public stats — media count, likes, subscription price, and bio. You only need an OnlyFans account when you decide to subscribe to someone.
+          </p>
+
+          <h3>Updated Weekly with Verified Stats</h3>
+          <p>
+            Our database refreshes every week with the latest creator stats from OnlyFans. New accounts get added, inactive ones get flagged, and prices stay current.
+            Unlike Reddit lists or outdated blog posts, FindFanz shows you what&apos;s happening right now — not what was popular six months ago.
           </p>
         </div>
       </section>
