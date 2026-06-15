@@ -106,7 +106,7 @@ export default function ValueRanker({ onClose }: { onClose: () => void }) {
                                     <span className="value-handle">@{c.username}</span>
                                 </div>
                                 <div className="value-meta">
-                                    <span className="value-score-badge">{c.value_score?.toFixed(1)} pts</span>
+                                    <span className="value-score-badge">{Number(c.value_score || 0).toFixed(0)} pts</span>
                                     <span className="value-price">{c.is_free ? "FREE" : `$${c.subscription_price}/mo`}</span>
                                     <span className="value-media">📸 {c.media_count?.toLocaleString()}</span>
                                 </div>
