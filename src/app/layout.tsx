@@ -141,6 +141,7 @@ export default function RootLayout({
                 </div>
               </div>
               <a href="/onlyfans/near-me" className="nav-link">Near Me</a>
+              <a href="/about" className="nav-link">About</a>
             </nav>
             <MobileNav />
           </div>

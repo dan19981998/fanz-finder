@@ -7,8 +7,6 @@ export async function GET() {
   const pages = [
     { url: "", changefreq: "daily", priority: "1.0" },
     { url: "/tools", changefreq: "weekly", priority: "0.9" },
-    { url: "/quiz", changefreq: "weekly", priority: "0.9" },
-    { url: "/compare", changefreq: "weekly", priority: "0.9" },
     { url: "/about", changefreq: "monthly", priority: "0.4" },
     { url: "/terms", changefreq: "monthly", priority: "0.3" },
     { url: "/privacy", changefreq: "monthly", priority: "0.3" },

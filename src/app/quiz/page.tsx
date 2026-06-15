@@ -5,7 +5,8 @@ export const metadata: Metadata = {
     title: "OnlyFans Quiz — Who Should I Subscribe To? | FindFanz",
     description:
         "Take our free quiz to find the perfect OnlyFans creator for you. Answer 5 quick questions about your preferences and get personalized recommendations.",
-    alternates: { canonical: "/quiz" },
+    alternates: { canonical: "/tools#quiz" },
+    robots: { index: false, follow: true },
 };
 
 export default function QuizPage() {

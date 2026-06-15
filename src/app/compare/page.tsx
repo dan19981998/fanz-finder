@@ -5,7 +5,8 @@ export const metadata: Metadata = {
     title: "Compare OnlyFans Creators Side by Side | FindFanz",
     description:
         "Compare two OnlyFans creators side by side. See who has more content, better pricing, and higher engagement — all in one view.",
-    alternates: { canonical: "/compare" },
+    alternates: { canonical: "/tools#compare" },
+    robots: { index: false, follow: true },
 };
 
 export default function ComparePage() {
