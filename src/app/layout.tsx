@@ -84,18 +84,33 @@ export default function RootLayout({
       },
       {
         "@type": "Question",
-        name: "How does the search work?",
-        acceptedAnswer: { "@type": "Answer", text: "Type what you're looking for — a category like 'blonde', a price range like 'free', or a creator's name. Results show real stats including media counts, subscriber counts, and exact prices pulled directly from OnlyFans weekly." },
+        name: "Can I search OnlyFans without an account?",
+        acceptedAnswer: { "@type": "Answer", text: "Yes. FindFanz lets you search, browse, and compare all 50,000+ OnlyFans creators without creating any account. No payment method required." },
       },
       {
         "@type": "Question",
-        name: "Do I need an OnlyFans account to use this?",
-        acceptedAnswer: { "@type": "Answer", text: "No. FindFanz is completely free and doesn't require any account or login. You can search, browse, compare, and take the quiz without signing up for anything." },
+        name: "Is there an OnlyFans search engine?",
+        acceptedAnswer: { "@type": "Answer", text: "OnlyFans has no built-in search or discovery features. FindFanz is the free alternative — a dedicated search engine that indexes 50,000+ creator profiles with real stats, pricing, and category filters." },
       },
       {
         "@type": "Question",
-        name: "What makes this different from searching on OnlyFans?",
-        acceptedAnswer: { "@type": "Answer", text: "OnlyFans has no search or discovery features — you need to know a creator's exact username. FindFanz lets you search by category, compare creators side by side, filter by price, and get personalised recommendations through our quiz." },
+        name: "How do I find the best OnlyFans creators?",
+        acceptedAnswer: { "@type": "Answer", text: "Use our Creator Quiz for personalised recommendations, the Compare Tool to evaluate two creators side by side, or the Value Rankings to find who delivers the most content per dollar. All tools are free." },
+      },
+      {
+        "@type": "Question",
+        name: "How much does OnlyFans cost?",
+        acceptedAnswer: { "@type": "Answer", text: "OnlyFans subscription prices range from free to $50/month per creator. Most accounts charge between $5 and $15 per month. FindFanz shows exact pricing on every creator card." },
+      },
+      {
+        "@type": "Question",
+        name: "Can I compare two OnlyFans creators?",
+        acceptedAnswer: { "@type": "Answer", text: "Yes. Our Compare Tool lets you put two creators side by side and see who has more content, better pricing, and higher engagement. Just enter two usernames and get an instant comparison." },
+      },
+      {
+        "@type": "Question",
+        name: "What free OnlyFans tools does FindFanz offer?",
+        acceptedAnswer: { "@type": "Answer", text: "Six free tools: Creator Quiz, Compare Tool, Budget Calculator, Value Rankings, Watchlist, and Random Discovery. All work instantly in your browser with no login required." },
       },
       {
         "@type": "Question",
@@ -104,8 +119,13 @@ export default function RootLayout({
       },
       {
         "@type": "Question",
-        name: "Can I compare two creators?",
-        acceptedAnswer: { "@type": "Answer", text: "Yes. Our Compare tool lets you put two creators side by side and see who has more content, better pricing, and higher engagement. Just enter two usernames and get an instant comparison." },
+        name: "How do I find OnlyFans creators near me?",
+        acceptedAnswer: { "@type": "Answer", text: "Use our location-based search to browse OnlyFans creators by country. We support over 30 countries including the US, UK, Canada, and Australia." },
+      },
+      {
+        "@type": "Question",
+        name: "What are the best free OnlyFans accounts?",
+        acceptedAnswer: { "@type": "Answer", text: "Our free category lists every verified creator who charges $0/month. Many top-earning creators offer free subscriptions and monetise through tips and PPV content instead." },
       },
     ],
   };

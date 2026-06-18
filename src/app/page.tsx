@@ -323,6 +323,51 @@ export default async function HomePage() {
             Our database refreshes every week with the latest creator stats from OnlyFans. New accounts get added, inactive ones get flagged, and prices stay current.
             Unlike Reddit lists or outdated blog posts, FindFanz shows you what&apos;s happening right now — not what was popular six months ago.
           </p>
+
+          <h3>Best OnlyFans Creators 2026</h3>
+          <p>
+            Finding the best OnlyFans creators in 2026 means looking at real engagement, not just follower counts. FindFanz ranks creators by likes, media uploads, and subscriber activity — giving you a data-driven view of who&apos;s actually delivering quality content right now. Our trending section highlights the top-performing accounts updated weekly.
+          </p>
+
+          <h3>OnlyFans Finder — Search by Username</h3>
+          <p>
+            Know a creator&apos;s name but can&apos;t find them on OnlyFans? Type their username or display name into the FindFanz search bar and we&apos;ll pull up their profile with full stats. This works even if OnlyFans search doesn&apos;t return results — our database is independently indexed and searchable.
+          </p>
+
+          <h3>Is OnlyFans Worth It?</h3>
+          <p>
+            That depends entirely on which creator you subscribe to. Some accounts post daily with thousands of photos and videos for under $10/month — incredible value. Others charge $50/month for minimal content. FindFanz lets you see exactly what you&apos;re getting before you pay by showing real media counts, pricing, and engagement stats. Use our Value Rankings tool to find the best content-per-dollar ratio.
+          </p>
+
+          <h3>OnlyFans Alternatives for Discovery</h3>
+          <p>
+            Reddit, Twitter, and Instagram are where most people discover OnlyFans creators — but they&apos;re inefficient. You can&apos;t filter by price, compare stats, or verify content volume on social media. FindFanz replaces that guesswork with a structured search engine built specifically for OnlyFans discovery. Search, filter, compare, and decide — all in one place.
+          </p>
+
+          <h3>How Much Does OnlyFans Cost?</h3>
+          <p>
+            OnlyFans subscription prices range from free to $50/month per creator, with most accounts charging between $5 and $15. Some creators offer free subscriptions and monetise through pay-per-view messages instead. FindFanz shows the exact price on every creator card so there are no surprises. Use our Budget Calculator to plan your spending across multiple subscriptions.
+          </p>
+
+          <h3>OnlyFans Search Without Signing Up</h3>
+          <p>
+            OnlyFans requires an account and payment method just to browse. FindFanz doesn&apos;t. Search our entire database of {creatorDisplay} creators without creating an account, without entering payment details, and without any registration. See full profiles, stats, and pricing before deciding whether to visit OnlyFans at all.
+          </p>
+
+          <h3>Top OnlyFans Models by Likes</h3>
+          <p>
+            Like count is the best proxy for subscriber satisfaction on OnlyFans. Creators with tens of thousands of likes have proven audiences who genuinely enjoy their content. Our trending section sorts by like count so you can see which creators have the most engaged subscribers — not just the most followers.
+          </p>
+
+          <h3>OnlyFans Creator Comparison Tool</h3>
+          <p>
+            Can&apos;t decide between two creators? Our <Link href="/tools#compare">Compare Tool</Link> puts them side by side with real stats — price, media count, likes, and subscription type. It&apos;s the only OnlyFans comparison tool that uses verified platform data instead of opinions or paid reviews.
+          </p>
+
+          <h3>Cheapest OnlyFans Subscriptions</h3>
+          <p>
+            The cheapest OnlyFans subscriptions start at $3/month, but free accounts are even better for trying the platform. FindFanz lets you sort by price and filter for free accounts across every category. Whether you&apos;re on a budget or just exploring, you can find quality creators at any price point.
+          </p>
         </div>
       </section>
 
