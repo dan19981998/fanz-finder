@@ -3,10 +3,11 @@ import { SITE_URL } from "@/lib/config";
 export async function GET() {
   const now = new Date().toISOString().split("T")[0];
 
-  // Tool-first approach: only index the application pages
   const pages = [
     { url: "", changefreq: "daily", priority: "1.0" },
     { url: "/tools", changefreq: "weekly", priority: "0.9" },
+    { url: "/onlyfans/free", changefreq: "weekly", priority: "0.8" },
+    { url: "/onlyfans/near-me", changefreq: "weekly", priority: "0.8" },
     { url: "/about", changefreq: "monthly", priority: "0.4" },
     { url: "/terms", changefreq: "monthly", priority: "0.3" },
     { url: "/privacy", changefreq: "monthly", priority: "0.3" },

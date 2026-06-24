@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description:
         "Find OnlyFans creators by location. Browse verified creators from the United States, United Kingdom, Canada, Australia and 16 more countries. Real stats, updated weekly.",
     alternates: { canonical: "/onlyfans/near-me" },
-    robots: { index: false, follow: true },
+    robots: { index: true, follow: true },
 };
 
 export const revalidate = 3600;

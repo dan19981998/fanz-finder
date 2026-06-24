@@ -25,11 +25,12 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const page = parseInt(sp.page || "1", 10);
   const content = TAG_CONTENT[tag] || getDefaultContent(tag);
 
+  const shouldIndex = tag === "free";
   return {
     title: content.metaTitle,
     description: content.metaDescription,
     alternates: { canonical: `/onlyfans/${tag}` },
-    robots: { index: false, follow: true },
+    robots: { index: shouldIndex, follow: true },
   };
 }
 
