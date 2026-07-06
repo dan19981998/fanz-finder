@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import QuizClient from "@/components/QuizClient";
 import CompareClient from "@/components/CompareClient";
 import ToolsPageClient from "@/components/ToolsPageClient";
@@ -152,6 +153,11 @@ export default function ToolsPage() {
                     <h3>All Tools Are Free — No Login Required</h3>
                     <p>
                         Every tool on this page works without an account, without a login, and without paying anything. Your watchlist is stored locally on your device. We don&apos;t track you, sell your data, or require email signups. Just open a tool and use it. FindFanz is funded independently and all features remain free for every visitor.
+                    </p>
+
+                    <h3>Browse Free OnlyFans Creators</h3>
+                    <p>
+                        Want to explore OnlyFans without spending anything? Browse our full list of <Link href="/onlyfans/free">free OnlyFans accounts</Link> — verified creators who charge $0/month. Use our tools on this page to compare free creators, check their value scores, or add them to your watchlist before subscribing.
                     </p>
 
                     <h3>How Are These Different from Other OnlyFans Finders?</h3>
